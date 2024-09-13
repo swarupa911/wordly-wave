@@ -81,8 +81,3 @@ Wordwave is a text processing application designed to provide functionalities su
 
 ---
 
-## Screenshots:
-Include relevant screenshots of the application interface to showcase the features:
-1. **Main Interface:** Demonstrates the text input field and available features.
-2. **Text-to-Voice Conversion:** Shows a voice note being generated from text.
-3. **Font Style Management and Dark Mode:** Highlights the font style options and dark mode toggle.
