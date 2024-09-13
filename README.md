@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Project Title: Wordwave - Text Trender Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Project Details:
+- **Project Demo URL:** [Wordwave Demo](https://wordwave.proudstone-87fbc107.centralindia.azurecontainerapps.io/)
+- **Demo Video URL:** [Wordwave Demo Video](https://drive.google.com/file/d/14-Y9TDa_NExllcyRvRRCiDoO8Pcvryf9/view?usp=drive_link)
+- **GitHub Repository URL:** [Wordwave GitHub Repository](https://github.com/swarupa911/wordly-wave)
+- **Industry:** Technology
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Project Overview:
+Wordwave is a text processing application designed to provide functionalities such as word counting, character counting, text-to-speech conversion, font style management, and text correction. The application is built with a user-friendly interface that allows users to perform various text manipulations efficiently. Wordwave is deployed on Azure, utilizing Azure Container Apps for scalability and reliability.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used:
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** Node.js (Express)
+- **Cloud Services:**
+  - **Azure Blob Storage:** For storing any generated content securely.
+  - **Azure Container Apps:** For deploying the application in a scalable environment.
+  - **Azure Container Registry (ACR):** For managing container images used in the deployment process.
+- **Other Libraries:**
+  - **Speech Synthesis API:** Converts text to voice notes.
+  - **Multer:** For handling file uploads if required.
+  - **Grammar and Spell Check Libraries:** Integrated for text correction features.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Key Features:
 
-### `npm run build`
+### **Text Analysis Tools:**
+- **Word and Character Counter:** Quickly counts the number of words and characters in the text provided by the user.
+- **Syllable Counter:** Helps in calculating the number of syllables in the text for linguistic analysis.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Text-to-Voice Conversion:**
+- Converts input text into a voice note using the Speech Synthesis API. Users can choose from different voices and adjust the speed to suit their needs.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Font Style and Formatting Options:**
+- Users can change the font style of their text, providing flexibility in text presentation for various purposes, such as reports and documents.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Text Correction and Formatting:**
+- Offers features to remove extra spaces and perform text corrections, enhancing the readability and quality of the text.
 
-### `npm run eject`
+### **Dark Mode:**
+- A toggle for enabling dark mode, providing a better user experience in low-light conditions.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Export and Share:**
+- Users can export the processed text or voice notes into various formats like PDF or MP3 for easy sharing and use.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Deployment Information:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Cloud Services:**
+- **Azure Container Apps:** Deployed on Azure Container Apps for a scalable, managed serverless environment that auto-scales based on traffic and resource needs.
+- **Azure Blob Storage:** Manages files and voice notes generated or uploaded by users.
+- **Azure Container Registry (ACR):** Hosts and manages the container images required for the deployment of the Wordwave application.
 
-## Learn More
+### **Deployment Process:**
+1. **Building Docker Image:** The application is containerized using Docker, and the image is built and pushed to **Azure Container Registry**.
+2. **Deploying with Azure Container Apps:** The containerized application is deployed using **Azure Container Apps**, ensuring easy scaling and integration with other Azure services.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Future Enhancements:
 
-### Code Splitting
+### **Enhanced Text Analysis:**
+- Integrate advanced text analytics features such as sentiment analysis and keyword extraction.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **More Language and Voice Options:**
+- Expand the text-to-speech capabilities to support more languages and provide more voice options.
 
-### Analyzing the Bundle Size
+### **User Authentication and Personalization:**
+- Implement user authentication to save user preferences and provide a personalized experience.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### **File Management Enhancements:**
+- Introduce features to manage and categorize exported files more efficiently.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Screenshots:
+Include relevant screenshots of the application interface to showcase the features:
+1. **Main Interface:** Demonstrates the text input field and available features.
+2. **Text-to-Voice Conversion:** Shows a voice note being generated from text.
+3. **Font Style Management and Dark Mode:** Highlights the font style options and dark mode toggle.
